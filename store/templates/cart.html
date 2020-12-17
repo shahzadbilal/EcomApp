@@ -1,0 +1,17 @@
+{% extends 'base.html %}
+{% load static %}
+{% block title}
+Cart
+{% endblock}
+
+{% block content %}
+
+{% if not cart %}
+<div class="text-center">
+    <br>
+    <h1 class="text-center product_title">Your Shopping cart is Empty</h1>
+    <br>
+    <p>Please click a href="</p>
+</div>
+
+{% endblock %}
